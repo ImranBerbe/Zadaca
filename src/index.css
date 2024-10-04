@@ -8,3 +8,8 @@
   box-sizing: border-box;
   font-family:'Times New Roman', Times, serif;
 }
+
+body {
+  min-height: 100vh;
+  background: blueviolet;
+}
