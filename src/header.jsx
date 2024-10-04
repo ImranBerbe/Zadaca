@@ -1,13 +1,17 @@
-function header () {
+function Header () {
     return (
         <div class="header">
-            <nav class="Navbar">
+            <a href="#" class ="logo">Logo</a>
+            <nav class="navbar">
+                <a href="#">Home</a>
                 <a href="#">Features</a>
                 <a href="#">About</a>
                 <a href="#">Newsletter</a>
             </nav>
         </div>
+        
+
+
     );
 }
-
-export default header
+export default Header
